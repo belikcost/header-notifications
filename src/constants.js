@@ -1,0 +1,3 @@
+export const SEND_EVENT = 'SEND_EVENT';
+export const READ_ALL_EVENTS = 'READ_ALL_EVENTS';
+export const REMOVE_ALL_EVENTS = 'REMOVE_ALL_EVENTS';

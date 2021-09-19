@@ -1,0 +1,58 @@
+.header {
+    display: flex;
+    justify-content: flex-end;
+    border: 2px solid #000;
+    background: #E6E6E6;
+    margin-bottom: 1rem;
+}
+
+.header__notifications {
+    font-size: 24px;
+    position: relative;
+    display: flex;
+    justify-content: flex-end;
+    cursor: pointer;
+}
+
+.header__notifications span {
+    position: absolute;
+    background: red;
+    border-radius: 50%;
+    font-size: 15px;
+    margin-right: -9px;
+    width: 16px;
+    height: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.popup {
+    position: absolute;
+    border: 2px solid #000;
+    background: #E6E6E6;
+    margin-top: 25px;
+    width: 220px;
+    padding: .5rem 1rem;
+}
+.popup p {
+    font-size: 14px;
+}
+.popup h5 {
+    font-size: 16px;
+}
+.popup h5, .popup p {
+    margin: 0;
+}
+
+.event {
+    margin-bottom: .5rem;
+}
+
+.label {
+    display: flex;
+}
+
+.label input {
+    width: 100%;
+}
